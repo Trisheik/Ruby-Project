@@ -16,7 +16,7 @@ get "/" do
 end
 
 
-get "/dashboard" do
+get "/goal_track" do
 	authenticate!
-	erb :dashboard
+	erb :goaltrack
 end

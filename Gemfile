@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'sinatra'
 gem 'data_mapper'
+gem 'bootstrap', '~> 4.1.0'
 
 group :development do
   gem "sqlite3-ruby"
